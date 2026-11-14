@@ -1,0 +1,61 @@
+{
+  "osdr_dataset_identifier": "OSD-MOCK-2026-CARDIO",
+  "study_metadata": {
+    "title": "Continuous Crew Telemetry and Environmental Monitoring",
+    "mission_phase": "Transit",
+    "environmental_context": "Spacecraft",
+    "data_release_date": "2026-10-14"
+  },
+  "subject": {
+    "subject_identifier": "CREW_MEMBER_ALPHA",
+    "species": "Homo sapiens",
+    "role": "Mission Specialist"
+  },
+  "assays": [
+    {
+      "measurement_type": "Electrocardiography (ECG)",
+      "technology_type": "Wearable Biometric Sensor",
+      "data_points": [
+        {
+          "timestamp": "2026-10-14T14:32:00Z",
+          "heart_rate_bpm": 68,
+          "r_r_interval_ms": 880,
+          "arrhythmia_flag": false
+        },
+        {
+          "timestamp": "2026-10-14T14:32:05Z",
+          "heart_rate_bpm": 135,
+          "r_r_interval_ms": 444,
+          "arrhythmia_flag": true
+        }
+      ]
+    },
+    {
+      "measurement_type": "Pulse Oximetry",
+      "technology_type": "Optical Photoplethysmography",
+      "data_points": [
+        {
+          "timestamp": "2026-10-14T14:32:00Z",
+          "blood_oxygen_saturation_spo2": 98,
+          "perfusion_index": 2.4
+        },
+        {
+          "timestamp": "2026-10-14T14:32:05Z",
+          "blood_oxygen_saturation_spo2": 92,
+          "perfusion_index": 1.1
+        }
+      ]
+    },
+    {
+      "measurement_type": "Dosimetry",
+      "technology_type": "Solid State Radiation Detector",
+      "data_points": [
+        {
+          "timestamp": "2026-10-14T14:32:00Z",
+          "cumulative_radiation_exposure_msv": 45.2,
+          "current_flux_rate_msv_hr": 0.05
+        }
+      ]
+    }
+  ]
+}
